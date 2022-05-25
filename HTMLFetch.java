@@ -28,8 +28,8 @@ public class HTMLFetch {
 			content = scanner.next();
 			scanner.close();
 		}
-		catch (Exception ex) {
-			ex.printStackTrace();
+		catch (Exception e) {
+			e.printStackTrace();
 		}
 		return content;
 	}
